@@ -1,0 +1,73 @@
+html {
+  background-color: #1b1b1b;
+  font-size: 16px;
+}
+h1,
+h2 {
+  font-size: 18px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.gas-section {
+  font-family: monospace;
+  text-align: center;
+  color: whitesmoke;
+}
+.container {
+  color: whitesmoke;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.inputLabel {
+  max-width: 100px;
+  margin-right: 10px;
+}
+.outputLabel {
+  margin: 5px;
+  margin-top: 20px;
+}
+.input {
+  max-width: 150px;
+  height: 30px;
+  padding: 6px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  background-color: #1b1b1b;
+  color: whitesmoke;
+}
+.inputSuffix {
+  margin-left: 10px;
+}
+.result {
+  margin-top: 0;
+  font-style: bold;
+  display: grid;
+  flex-direction: cloumn;
+  line-height: 0px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-top: 1px solid gray;
+}
+.pl {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+}
