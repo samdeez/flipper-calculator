@@ -1,6 +1,5 @@
 {
-  "homepage": "https://samdeez.github.io/flipper-calculator",
-  "name": "flipper-calculator", 
+  "name": "flipper-calculator",
   "version": "1.0.0",
   "description": "A small calculator for your flipping addictions.",
   "keywords": [],
