@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js install
+
+PATH: 
+  /project/home/pitcher-host/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/project/home/pitcher-host/.local/state/fnm_multishells/21529_1688369524786/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/project/.cache/yarn/v6/npm-caniuse-lite-1.0.30001511-e6e2a1614275c6fb8e3acfd74a8c3a70e53ed233-integrity/node_modules/caniuse-lite/.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "homepage": "https://samdeez.github.io/flipper-calculator",
+    "name": "flipper-calculator", 
+    "version": "1.0.0",
+    "description": "A small calculator for your flipping addictions.",
+    "keywords": [],
+    "main": "src/index.js",
+    "dependencies": {
+      "ethers": "5.7.2",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-scripts": "4.0.0",
+      "style": "0.0.3"
+    },
+    "devDependencies": {
+      "@babel/runtime": "7.13.8",
+      "typescript": "4.1.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
